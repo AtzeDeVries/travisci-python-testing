@@ -1,2 +1,5 @@
-# this should fail on python 3
-print 'hoi'
+#fix
+from __future__ import print_function
+
+print('hoi')
+
