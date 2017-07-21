@@ -2,4 +2,7 @@ language: python
 python:
   - "2.7"
   - "3.5"
+env:
+  - TEST=projectA
+  - TEST=projectB
 script: python script.py
