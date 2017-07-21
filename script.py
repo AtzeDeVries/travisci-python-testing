@@ -1,5 +1,5 @@
 #fix
 from os import environ
 
-print(environ['TEST'])
+print environ['TEST']
 
